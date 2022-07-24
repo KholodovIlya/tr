@@ -19,6 +19,31 @@
     <audio id="audioContainer3">
       <source src="push.mp3" type="audio/mpeg">
     </audio>
+
+    <button onclick="playMp0()" type="button">Play Mp3</button>
+    <button onclick="pauseMp0()" type="button">Pause Mp3</button>
+    <button onclick="playMp1()" type="button">Play Mp3</button>
+    <button onclick="pauseMp1()" type="button">Pause Mp3</button>
+    <button onclick="playMp2()" type="button">Play Mp3</button>
+    <button onclick="pauseMp2()" type="button">Pause Mp3</button>
+    <button onclick="playMp3()" type="button">Play Mp3</button>
+    <button onclick="pauseMp3()" type="button">Pause Mp3</button>
+
+    <script>
+    const audioContainer0 = document.getElementById("audioContainer0");
+    const audioContainer1 = document.getElementById("audioContainer1");
+    const audioContainer2 = document.getElementById("audioContainer2");
+    const audioContainer3 = document.getElementById("audioContainer3");
+
+    function playMp0() {audioContainer0.play();}
+    function pauseMp0() {audioContainer0.pause();}
+    function playMp1() {audioContainer1.play();}
+    function pauseMp1() {audioContainer1.pause();}
+    function playMp2() {audioContainer2.play();}
+    function pauseMp2() {audioContainer2.pause();}
+    function playMp3() {audioContainer3.play();}
+    function pauseMp3() {audioContainer3.pause();}
+    </script>
   </body>
 
 </html>
